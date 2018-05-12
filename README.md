@@ -11,15 +11,15 @@ Build and execute
 
 1. From the source directory, generate the "Makefile":
 
-    $ cmake .
+       $ cmake .
 
 2. *Make* the project and generate the executable "ctypes_sizes":
 
-    $ make
+       $ make
 
 3. Then execute with:
 
-    $ out/ctypes_sizes
+       $ out/ctypes_sizes
 
 To clean the compiled binaries and compiled modules:
 

@@ -13,7 +13,7 @@ Build and execute
 
     $ cmake .
 
-2. *Make* the project and generate the executable "ctypes_sizes".
+2. *Make* the project and generate the executable "ctypes_sizes":
 
     $ make
 

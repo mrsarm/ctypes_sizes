@@ -40,6 +40,7 @@ Debug/
 
 # IDEA files
 .idea
+cmake-build-debug/
 
 # Linux desktop files
 .directory

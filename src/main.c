@@ -30,6 +30,9 @@ int main() {
     printf("float:\t\t%ld bytes\t\t(%ld bits)\n", sizeof(float), sizeof(float)*8);
     printf("double:\t\t%ld bytes\t\t(%ld bits)\n", sizeof(double), sizeof(double)*8);
     printf("long double:\t%ld bytes\t(%ld bits)\n", sizeof(long double), sizeof(long double)*8);
+#ifdef __SIZEOF_INT128__
+    printf("__int128_t:\t%ld bytes\t(%ld bits)\n", sizeof(__int128_t), sizeof(__int128_t)*8);
+#endif
     printf("void *:\t\t%ld bytes\t\t(%ld bits)\n", sizeof(void *), sizeof(void *)*8);
     return 0;
 }

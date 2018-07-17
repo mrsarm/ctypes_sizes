@@ -43,6 +43,7 @@ Linux x64:
     float:       4 bytes     (32 bits)
     double:      8 bytes     (64 bits)
     long double: 16 bytes    (128 bits)
+    __int128_t:  16 bytes    (128 bits)
     void *:      8 bytes     (64 bits)
 
 

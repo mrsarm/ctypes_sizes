@@ -21,6 +21,17 @@ Build and execute
 
        $ out/ctypes_sizes
 
+4. To install the executable `ctypes_sizes`
+   into `/usr/local/bin`:
+
+       $ sudo make install
+
+   To install into another folder, execute the step 1
+   overwriting the `CMAKE_INSTALL_PREFIX` variable, eg.
+   to install into `/usr/bin` folder:
+
+       $ cmake -DCMAKE_INSTALL_PREFIX=/usr .
+
 To clean the compiled binaries and compiled modules:
 
     $ make clean
